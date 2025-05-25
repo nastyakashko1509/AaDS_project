@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_3_task_4.VisualizationOfTheSecondSolution"
+             Title="Визуализация второго решения"
+             BackgroundColor="#F0F4F8">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="20" HorizontalOptions="Center" WidthRequest="380">
+
+            <Label Text="🔍 Визуализация: Ближайший больший справа"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   TextColor="#2C3E50"
+                   HorizontalTextAlignment="Center" />
+
+            <Entry x:Name="InputArrayEntry"
+                   Placeholder="Введите массив, например: 5, 3, 8, 1"
+                   FontSize="16"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   HeightRequest="40"
+                   WidthRequest="340"
+                   Margin="0,0,0,10"
+                   PlaceholderColor="#BDC3C7"
+                   Keyboard="Numeric" />
+
+            <Button Text="▶ Начать визуализацию"
+                    Clicked="OnStartVisualizationClicked"
+                    BackgroundColor="#2980B9"
+                    TextColor="White"
+                    FontSize="16"
+                    CornerRadius="12"
+                    WidthRequest="260"
+                    HeightRequest="48">
+                <Button.Shadow>
+                <Shadow Brush="Gray"
+                    Offset="5,5"
+                    Radius="10"
+                    Opacity="0.6" />
+                </Button.Shadow>
+            </Button>
+
+            <Frame x:Name="StatusFrame"
+                   BackgroundColor="#ECF0F1"
+                   BorderColor="#BDC3C7"
+                   CornerRadius="12"
+                   Padding="12"
+                   WidthRequest="340">
+                <Frame.Shadow>
+                    <Shadow Brush="Gray"
+                        Offset="4,4"
+                        Radius="6"
+                        Opacity="0.5" />
+                </Frame.Shadow>
+                <Label x:Name="StatusLabel"
+                       FontSize="16"
+                       TextColor="#2C3E50"
+                       HorizontalTextAlignment="Center" />
+            </Frame>
+
+            <VerticalStackLayout x:Name="StepsContainer"
+                                 Spacing="10"
+                                 Padding="10"
+                                 WidthRequest="340"
+                                 BackgroundColor="White" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

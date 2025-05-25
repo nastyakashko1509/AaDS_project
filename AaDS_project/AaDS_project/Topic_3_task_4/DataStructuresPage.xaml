@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_3_task_4.DataStructuresPage"
+             BackgroundColor="#f8f9fa"
+             Title="Структуры данных">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20"
+                             Spacing="25"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center">
+
+            <!-- Описание задачи -->
+            <Frame BackgroundColor="White"
+                   BorderColor="#dcdcdc"
+                   CornerRadius="12"
+                   Padding="16"
+                   WidthRequest="550"
+                   HasShadow="True">
+                <Label Text="Задача: в массиве A размера n за одно обращение к каждому элементу массива необходимо каждый элемент заменить ближайшим большим, следующим за ним. Если такого элемента нет, то необходимо заменить его нулём. Можно использовать дополнительную память."
+                       FontSize="16"
+                       TextColor="#2c3e50"
+                       HorizontalTextAlignment="Start"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+
+            <!-- Кнопки -->
+            <Button Text="Визуализация 1-го решения"
+                    FontSize="16"
+                    BackgroundColor="#3498db"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="12"
+                    HorizontalOptions="Center"
+                    WidthRequest="280"
+                    Clicked="OnFirstVisualizationClicked" />
+
+            <Button Text="Визуализация 2-го решения"
+                    FontSize="16"
+                    BackgroundColor="#2ecc71"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="12"
+                    HorizontalOptions="Center"
+                    WidthRequest="280"
+                    Clicked="OnSecondVisualizationClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

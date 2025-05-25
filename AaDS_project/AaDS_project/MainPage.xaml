@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.MainPage"
+             BackgroundColor="#f0f4f8">
+
+    <ScrollView>
+        <VerticalStackLayout 
+            Padding="20"
+            Spacing="25"
+            VerticalOptions="Center"
+            HorizontalOptions="Center">
+
+            <!-- Заголовок -->
+            <Label Text="Алгоритмы и структуры данных"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#2c3e50" />
+
+            <!-- Преподаватель -->
+            <Label Text="Калугина Марина Алексеевна"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   TextColor="#34495e" />
+
+            <!-- Студенты -->
+            <Label Text="Выполнили студенты гр. 353502: Кашко Анастасия, Згирская Дарья"
+                   FontSize="16"
+                   HorizontalOptions="Center"
+                   TextColor="#34495e"
+                   HorizontalTextAlignment="Center" />
+
+            <!-- Кнопки задач -->
+            <Button Text="Задача на тему 'Бинарные поисковые деревья'"
+                    FontSize="16"
+                    BackgroundColor="#3498db"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="12"
+                    HorizontalOptions="Center"
+                    WidthRequest="750" />
+
+            <Button Text="Задача (максимальная стоимость товара) на тему 'Разработка эффективных алгоритмов'"
+                    FontSize="16"
+                    BackgroundColor="#27ae60"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="12"
+                    HorizontalOptions="Center"
+                    WidthRequest="750" />
+
+            <Button Text="Задача (выбрать подпоследовательность)\nна тему 'Разработка эффективных алгоритмов'"
+                    FontSize="16"
+                    BackgroundColor="#27ae60"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="12"
+                    HorizontalOptions="Center"
+                    WidthRequest="750" />
+
+            <Button Text="Задача на тему 'Структуры данных'"
+                    FontSize="16"
+                    BackgroundColor="#9b59b6"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="12"
+                    HorizontalOptions="Center"
+                    WidthRequest="750"
+                    Clicked="GoToTheDataStructuresPage" />
+
+            <Button Text="Задача на тему 'Графы'"
+                    FontSize="16"
+                    BackgroundColor="#e67e22"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Padding="12" 
+                    HorizontalOptions="Center"
+                    WidthRequest="750" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_3_task_4.LeadTimeTwoSolution">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Button Text="Запустить"
+                x:Name="RunButton"
+                Clicked="RunButton_Clicked"
+                HorizontalOptions="Center" />
+
+        <Label x:Name="ResultLabel"
+               Text="Нажмите кнопку для запуска"
+               HorizontalOptions="Center"
+               FontSize="16" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

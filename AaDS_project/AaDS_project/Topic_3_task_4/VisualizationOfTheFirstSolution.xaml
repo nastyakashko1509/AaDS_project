@@ -1,0 +1,44 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_3_task_4.VisualizationOfTheFirstSolution"
+             Title="Визуализация первого решения"
+             BackgroundColor="#f4f4f4">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20" HorizontalOptions="Center">
+
+            <Label Text="Введите массив (через запятую):"
+                   FontSize="16" />
+
+            <Entry x:Name="InputArrayEntry"
+                   Placeholder="Например: 5,3,8,1"
+                   FontSize="16"
+                   WidthRequest="300" />
+
+            <Button Text="Начать визуализацию"
+                    Clicked="OnStartVisualizationClicked"
+                    BackgroundColor="#3498db"
+                    TextColor="White"
+                    WidthRequest="250"
+                    CornerRadius="10" />
+
+            <Frame x:Name="StatusFrame"
+                   Padding="10"
+                   BackgroundColor="#ECF0F1"
+                   BorderColor="#B2BABB"
+                   CornerRadius="12"
+                   WidthRequest="300">
+                <Label x:Name="StatusLabel"
+                       FontSize="14"
+                       TextColor="Black"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+
+            <VerticalStackLayout x:Name="StepsContainer"
+                                 Spacing="10"
+                                 Padding="10"
+                                 WidthRequest="300" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
