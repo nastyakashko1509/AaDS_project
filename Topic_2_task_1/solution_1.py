@@ -27,7 +27,6 @@ def count_max_cost(buyer: list[int], seller: list[int]) -> int | None:
     buyer_sums = get_possible_sums(buyer)
     seller_sums = get_possible_sums(seller)
     
-    # Все возможные p = buyer_sum - seller_sum > 0
     possible_p = set()
     for b in buyer_sums:
         for s in seller_sums:
@@ -35,8 +34,15 @@ def count_max_cost(buyer: list[int], seller: list[int]) -> int | None:
             if p > 0:
                 possible_p.add(p)
     
-    max_affordable = sum(buyer)
+    max_affordable = max(buyer_sums)
     for p in range(max_affordable, 0, -1):
         if p not in possible_p:
             return p
-    return None
+    
+    # Если все p от 1 до max_affordable возможны
+    if max_affordable == 0:  # У покупателя нет денег
+        return None
+    # Если есть деньги, но все p возможны - значит минимальная купюра покупателя ≤ минимальной продавца
+    if min(buyer) <= min(seller):
+        return None
+    return min(buyer) - min(seller) - 1
