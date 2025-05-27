@@ -1,23 +1,39 @@
 def get_possible_sums(coins: list[int]) -> set[int]:
-    max_sum = sum(coins)
-    dp = [False] * (max_sum + 1)
-    dp[0] = True
+    possible_sums = {0}
     for coin in coins:
-        for j in range(max_sum, coin - 1, -1):
-            if dp[j - coin]:
-                dp[j] = True
-    return {s for s in range(max_sum + 1) if dp[s]}
+        new_sums = set()
+        for s in possible_sums:
+            new_sums.add(s + coin)
+        possible_sums.update(new_sums)
+    return possible_sums
 
 def count_max_cost_2(buyer: list[int], seller: list[int]) -> int | None:
     buyer_sums = get_possible_sums(buyer)
+    if not buyer_sums or max(buyer_sums) == 0:
+        print("У покупателя нет денег!")
+        return None
+    
     seller_sums = get_possible_sums(seller)
-
     max_affordable = max(buyer_sums)
-    buyer_sums_set = set(buyer_sums)
-
+    buyer_sums_set = buyer_sums  # уже является set
+    
+    # Оптимизация для случая, когда у продавца нет денег
+    if not seller_sums:
+        for p in range(max_affordable - 1, -1, -1):
+            if p not in buyer_sums_set:
+                return p
+        print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
+        return None
+    
+    # Основной случай
     for p in range(max_affordable, 0, -1):
-        can_pay_exact = any((p + s) in buyer_sums_set for s in seller_sums)
-        if not can_pay_exact:
+        found = False
+        for s in seller_sums:
+            if (p + s) in buyer_sums_set:
+                found = True
+                break
+        if not found:
             return p
-
+    
+    print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
     return None
