@@ -69,9 +69,18 @@ public partial class VisualizationOfTheFirstSolution1 : ContentPage
 
             if (result.HasValue)
             {
-                AddStep($"🛑 Максимальная стоимость, которую нельзя оплатить: {result.Value}", "#E74C3C", true);
-                StatusLabel.Text = $"❗ Максимальная стоимость, которую нельзя оплатить: {result.Value}";
-                StatusFrame.BackgroundColor = Color.FromArgb("#FADBD8");
+                if (result.Value == 0)
+                {
+                    AddStep($"✅ Любую стоимость можно оплатить.", "#E74C3C", true);
+                    StatusLabel.Text = $"✅ Любую стоимость можно оплатить.";
+                    StatusFrame.BackgroundColor = Color.FromArgb("#D4EFDF");
+                }
+                else
+                {
+                    AddStep($"🛑 Максимальная стоимость, которую нельзя оплатить: {result.Value}", "#E74C3C", true);
+                    StatusLabel.Text = $"❗ Максимальная стоимость, которую нельзя оплатить: {result.Value}";
+                    StatusFrame.BackgroundColor = Color.FromArgb("#FADBD8");
+                }
             }
             else
             {

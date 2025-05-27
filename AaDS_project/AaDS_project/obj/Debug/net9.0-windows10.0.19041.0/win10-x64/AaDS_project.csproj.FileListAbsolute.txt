@@ -470,6 +470,10 @@ C:\Users\zgdas\2 course\2 sem\AaDS_project\AaDS_project\AaDS_project\obj\Debug\n
 C:\Users\zgdas\2 course\2 sem\AaDS_project\AaDS_project\AaDS_project\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\zgdas\2 course\2 sem\AaDS_project\AaDS_project\AaDS_project\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\zgdas\2 course\2 sem\AaDS_project\AaDS_project\AaDS_project\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.Interop.dll
+D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Essentials.dll
+D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AboutAssets.txt
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
@@ -775,19 +779,16 @@ D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows1
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Debug.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Primitives.dll
-D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.Interop.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.Xaml.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.dll
-D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Essentials.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.InteractiveExperiences.Projection.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WinUI.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppLifecycle.Projection.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
-D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.AppNotifications.Projection.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
@@ -836,7 +837,6 @@ D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows1
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WebView2Loader.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
-D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.Projection.dll
 D:\4 семестр\АиСД\AaDS_project\AaDS_project\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.pri

@@ -14,7 +14,6 @@ namespace AaDS_project
             Routing.RegisterRoute("VisualizationOfTheFirstSolution", typeof(VisualizationOfTheFirstSolution));
             Routing.RegisterRoute("VisualizationOfTheSecondSolution", typeof(VisualizationOfTheSecondSolution));
             Routing.RegisterRoute("VisualizationOfTheFirstSolution1", typeof(VisualizationOfTheFirstSolution1));
-            Routing.RegisterRoute("VisualizationOfTheSecondSolution1", typeof(VisualizationOfTheSecondSolution1));
         }
     }
 }

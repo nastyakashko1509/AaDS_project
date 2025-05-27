@@ -12,16 +12,7 @@ public partial class DynamicProgrammingPage : ContentPage
         await Shell.Current.GoToAsync("/VisualizationOfTheFirstSolution1");
     }
 
-    private async void OnSecondVisualizationClicked1(object sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync("/VisualizationOfTheSecondSolution1");
-    }
-
     private async void OnFirstVisualizationClicked9(object sender, EventArgs e)
-    {
-    }
-
-    private async void OnSecondVisualizationClicked9(object sender, EventArgs e)
     {
     }
 }

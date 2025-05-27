@@ -1,8 +1,9 @@
 from solution_1 import count_max_cost_1
 from solution_2 import count_max_cost_2
+import time
 
 
-def input_list(n: int) -> list[int]:
+'''def input_list(n: int) -> list[int]:
     money = []
     for i in range(n):
         while True:
@@ -30,4 +31,12 @@ if result_1 != None:
     print(f"Максимальная стоимость товара, которую нельзя точно оплатить (решение 1): {result_1}")
 
 if result_2 != None:
-    print(f"Максимальная стоимость товара, которую нельзя точно оплатить (решение 2): {result_2}")
+    print(f"Максимальная стоимость товара, которую нельзя точно оплатить (решение 2): {result_2}")'''
+
+
+buyer = [1, 2, 5, 10, 20, 50]
+seller = [1, 1, 2, 2, 5]
+start = time.time()
+result = count_max_cost_1(buyer, seller)
+print(result)
+print("Время выполнения:", time.time() - start, "сек.")

@@ -54,17 +54,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_2_task_
 build_metadata.AdditionalFiles.TargetPath = Topic_2_task_1\DynamicProgrammingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_2_task_1\DynamicProgrammingPage.xaml
 
+[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_2_task_1/LeadTimeSolution1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_2_task_1.LeadTimeSolution1.xaml
+build_metadata.AdditionalFiles.TargetPath = Topic_2_task_1\LeadTimeSolution1.xaml
+build_metadata.AdditionalFiles.RelativePath = Topic_2_task_1\LeadTimeSolution1.xaml
+
 [D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_2_task_1/VisualizationOfTheFirstSolution1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_2_task_1.VisualizationOfTheFirstSolution1.xaml
 build_metadata.AdditionalFiles.TargetPath = Topic_2_task_1\VisualizationOfTheFirstSolution1.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_2_task_1\VisualizationOfTheFirstSolution1.xaml
-
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_2_task_1/VisualizationOfTheSecondSolution1.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_2_task_1.VisualizationOfTheSecondSolution1.xaml
-build_metadata.AdditionalFiles.TargetPath = Topic_2_task_1\VisualizationOfTheSecondSolution1.xaml
-build_metadata.AdditionalFiles.RelativePath = Topic_2_task_1\VisualizationOfTheSecondSolution1.xaml
 
 [D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_3_task_4/DataStructuresPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

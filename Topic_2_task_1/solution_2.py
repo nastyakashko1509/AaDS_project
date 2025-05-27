@@ -15,9 +15,8 @@ def count_max_cost_2(buyer: list[int], seller: list[int]) -> int | None:
     
     seller_sums = get_possible_sums(seller)
     max_affordable = max(buyer_sums)
-    buyer_sums_set = buyer_sums  # уже является set
+    buyer_sums_set = buyer_sums  
     
-    # Оптимизация для случая, когда у продавца нет денег
     if not seller_sums:
         for p in range(max_affordable - 1, -1, -1):
             if p not in buyer_sums_set:
@@ -25,7 +24,6 @@ def count_max_cost_2(buyer: list[int], seller: list[int]) -> int | None:
         print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
         return None
     
-    # Основной случай
     for p in range(max_affordable, 0, -1):
         found = False
         for s in seller_sums:

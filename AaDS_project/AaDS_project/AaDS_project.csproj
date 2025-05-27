@@ -74,10 +74,10 @@
 	  <MauiXaml Update="Topic_2_task_1\DynamicProgrammingPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Topic_2_task_1\VisualizationOfTheFirstSolution1.xaml">
+	  <MauiXaml Update="Topic_2_task_1\LeadTimeSolution1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Topic_2_task_1\VisualizationOfTheSecondSolution1.xaml">
+	  <MauiXaml Update="Topic_2_task_1\VisualizationOfTheFirstSolution1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Topic_3_task_4\DataStructuresPage.xaml">

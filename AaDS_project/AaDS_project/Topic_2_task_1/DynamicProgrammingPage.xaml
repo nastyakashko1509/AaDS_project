@@ -45,10 +45,9 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Text="Визуализация 1-го решения (задача 1)"
+                <Button Text="Визуализация решения (задача 1)"
                         FontSize="16"
                         BackgroundColor="#3498db"
                         TextColor="White"
@@ -58,17 +57,7 @@
                         Grid.Row="0" Grid.Column="0"
                         Clicked="OnFirstVisualizationClicked1" />
 
-                <Button Text="Визуализация 2-го решения (задача 1)"
-                        FontSize="16"
-                        BackgroundColor="#2ecc71"
-                        TextColor="White"
-                        CornerRadius="10"
-                        Padding="12"
-                        HorizontalOptions="Fill"
-                        Grid.Row="0" Grid.Column="1"
-                        Clicked="OnSecondVisualizationClicked1" />
-
-                <Button Text="Визуализация 1-го решения (задача 9)"
+                <Button Text="Визуализация решения (задача 9)"
                         FontSize="16"
                         BackgroundColor="#3498db"
                         TextColor="White"
@@ -77,16 +66,6 @@
                         HorizontalOptions="Fill"
                         Grid.Row="1" Grid.Column="0"
                         Clicked="OnFirstVisualizationClicked9" />
-
-                <Button Text="Визуализация 2-го решения (задача 9)"
-                        FontSize="16"
-                        BackgroundColor="#2ecc71"
-                        TextColor="White"
-                        CornerRadius="10"
-                        Padding="12"
-                        HorizontalOptions="Fill"
-                        Grid.Row="1" Grid.Column="1"
-                        Clicked="OnSecondVisualizationClicked9" />
             </Grid>
         </VerticalStackLayout>
     </ScrollView>

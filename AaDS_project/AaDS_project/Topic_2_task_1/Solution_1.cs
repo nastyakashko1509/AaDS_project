@@ -68,12 +68,25 @@ public class Solution_1
             return null;
         }
 
-        if (buyer.Min() <= seller.Min())
+        if (seller.Count == 0)
         {
+            int maxNotAffordable = maxAffordable - 1;
+            int minBuyerSum = buyerSums.Min();
+
+            while (maxNotAffordable >= minBuyerSum)
+            {
+                if (!buyerSums.Contains(maxNotAffordable))
+                {
+                    return maxNotAffordable;
+                }
+                maxNotAffordable--;
+            }
+
             Console.WriteLine("Покупатель может точно оплатить любую стоимость до своей максимальной суммы");
             return null;
         }
 
-        return buyer.Min() - seller.Min() - 1;
+        Console.WriteLine("Покупатель может точно оплатить любую стоимость до своей максимальной суммы");
+        return null;
     }
 }

@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AaDS_project"
     xmlns:topic_three="clr-namespace:AaDS_project.Topic_3_task_4"
+    xmlns:topic_two_one="clr-namespace:AaDS_project.Topic_2_task_1"
     Shell.FlyoutBehavior="Flyout">
 
     <ShellContent
@@ -16,5 +17,10 @@
         Title="Время выполнения 2-го решения (Тема 3)"
         ContentTemplate="{DataTemplate topic_three:LeadTimeTwoSolution}"
         Route="LeadTimeTwoSolution" />
+
+    <ShellContent
+        Title="Время выполнения 1-го задачи (Тема 2)"
+        ContentTemplate="{DataTemplate topic_two_one:LeadTimeSolution1}"
+        Route="LeadTimeSolution1" />
 
 </Shell>

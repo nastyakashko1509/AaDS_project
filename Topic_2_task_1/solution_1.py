@@ -41,7 +41,6 @@ def count_max_cost_1(buyer: list[int], seller: list[int]) -> int | None:
         print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")  
         return None
     else:
-        if min(buyer) <= min(seller):
-            print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
-            return None
-        return min(buyer) - min(seller) - 1
+        print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
+        return None
+        
