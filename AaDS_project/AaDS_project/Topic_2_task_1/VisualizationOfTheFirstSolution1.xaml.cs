@@ -20,11 +20,13 @@ public partial class VisualizationOfTheFirstSolution1 : ContentPage
             List<int> buyer = BuyerEntry.Text?
                 .Split(',', StringSplitOptions.RemoveEmptyEntries)
                 .Select(s => int.Parse(s.Trim()))
+                .Where(x => x >= 0) 
                 .ToList() ?? new();
 
             List<int> seller = SellerEntry.Text?
                 .Split(',', StringSplitOptions.RemoveEmptyEntries)
                 .Select(s => int.Parse(s.Trim()))
+                .Where(x => x >= 0) 
                 .ToList() ?? new();
 
             StepsContainer.Children.Clear();
@@ -54,23 +56,37 @@ public partial class VisualizationOfTheFirstSolution1 : ContentPage
                 }
             }
 
-            AddStep($"🧠 Все возможные стоимости товаров, которые можно оплатить: [{string.Join(", ", possibleP.OrderBy(x => x))}]", "#BB8FCE");
-
-            int maxAffordable = buyerSums.Max();
-            for (int p = 1; p <= maxAffordable; p++)
+            if (possibleP.Count > 0)
             {
-                if (!possibleP.Contains(p))
-                {
-                    AddStep($"🛑 Покупатель не может оплатить стоимость {p}", "#E74C3C", true);
-                    StatusLabel.Text = $"❗ Максимальная стоимость, которую нельзя оплатить: {p}";
-                    StatusFrame.BackgroundColor = Color.FromArgb("#FADBD8");
-                    return;
-                }
+                AddStep($"🧠 Все возможные стоимости товаров, которые можно оплатить: [{string.Join(", ", possibleP.OrderBy(x => x))}]", "#BB8FCE");
+            }
+            else
+            {
+                AddStep("ℹ️ Нет возможных стоимостей товаров, которые можно оплатить", "#BB8FCE");
             }
 
-            AddStep("✅ Все стоимости до максимальной суммы покупателя могут быть оплачены", "#2ECC71", true);
-            StatusLabel.Text = "✅ Все стоимости возможны для оплаты";
-            StatusFrame.BackgroundColor = Color.FromArgb("#D4EFDF");
+            int? result = Solution_1.CountMaxCost(buyer, seller);
+
+            if (result.HasValue)
+            {
+                AddStep($"🛑 Максимальная стоимость, которую нельзя оплатить: {result.Value}", "#E74C3C", true);
+                StatusLabel.Text = $"❗ Максимальная стоимость, которую нельзя оплатить: {result.Value}";
+                StatusFrame.BackgroundColor = Color.FromArgb("#FADBD8");
+            }
+            else
+            {
+                if (buyerSums.Count == 0 || buyerSums.Max() == 0)
+                {
+                    AddStep("⚠️ У покупателя нет денег!", "#E74C3C", true);
+                    StatusLabel.Text = "⚠️ У покупателя нет денег!";
+                }
+                else
+                {
+                    AddStep($"✅ Покупатель может оплатить любую стоимость от 1 до {buyerSums.Max()}", "#2ECC71", true);
+                    StatusLabel.Text = "✅ Все стоимости возможны для оплаты";
+                }
+                StatusFrame.BackgroundColor = Color.FromArgb("#D4EFDF");
+            }
         }
         catch
         {

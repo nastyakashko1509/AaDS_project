@@ -24,7 +24,7 @@ public class Solution_1
         }
 
         HashSet<int> result = new();
-        for (int i = 1; i <= maxSum; i++)
+        for (int i = 0; i <= maxSum; i++)
         {
             if (dp[i])
                 result.Add(i);

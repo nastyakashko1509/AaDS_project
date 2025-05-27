@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|d:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0438\u0441\u0434\\aads_project\\aads_project\\topic_2_task_1\\solution_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_2_task_1\\solution_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|d:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0438\u0441\u0434\\aads_project\\aads_project\\topic_2_task_1\\visualizationofthefirstsolution1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_2_task_1\\visualizationofthefirstsolution1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|d:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0438\u0441\u0434\\aads_project\\aads_project\\topic_2_task_1\\solution_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_2_task_1\\solution_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|d:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0438\u0441\u0434\\aads_project\\aads_project\\topic_2_task_1\\dynamicprogrammingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_2_task_1\\dynamicprogrammingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|d:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0438\u0441\u0434\\aads_project\\aads_project\\topic_2_task_1\\visualizationofthefirstsolution1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|d:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0438\u0441\u0434\\aads_project\\aads_project\\topic_2_task_1\\dynamicprogrammingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_2_task_1\\dynamicprogrammingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|d:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0438\u0441\u0434\\aads_project\\aads_project\\topic_2_task_1\\dynamicprogrammingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_2_task_1\\dynamicprogrammingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|d:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0430\u0438\u0441\u0434\\aads_project\\aads_project\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -102,30 +102,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Solution_1.cs",
               "DocumentMoniker": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\Solution_1.cs",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_2_task_1\\Solution_1.cs",
               "ToolTip": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\Solution_1.cs",
               "RelativeToolTip": "AaDS_project\\Topic_2_task_1\\Solution_1.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAswEEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T18:33:14.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VisualizationOfTheFirstSolution1.xaml.cs",
               "DocumentMoniker": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\VisualizationOfTheFirstSolution1.xaml.cs",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_2_task_1\\VisualizationOfTheFirstSolution1.xaml.cs",
               "ToolTip": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\VisualizationOfTheFirstSolution1.xaml.cs",
               "RelativeToolTip": "AaDS_project\\Topic_2_task_1\\VisualizationOfTheFirstSolution1.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T09:45:35.716Z",
               "EditorCaption": ""
@@ -133,6 +133,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DynamicProgrammingPage.xaml.cs",
+              "DocumentMoniker": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml.cs",
+              "RelativeDocumentMoniker": "AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml.cs",
+              "ToolTip": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml.cs",
+              "RelativeToolTip": "AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T09:40:21.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "VisualizationOfTheFirstSolution1.xaml",
               "DocumentMoniker": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\VisualizationOfTheFirstSolution1.xaml",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_2_task_1\\VisualizationOfTheFirstSolution1.xaml",
@@ -140,8 +153,7 @@
               "RelativeToolTip": "AaDS_project\\Topic_2_task_1\\VisualizationOfTheFirstSolution1.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-27T09:35:33.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T09:35:33.649Z"
             },
             {
               "$type": "Document",
@@ -153,12 +165,11 @@
               "RelativeToolTip": "AaDS_project\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T11:17:25.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:17:25.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DataStructuresPage.xaml.cs",
               "DocumentMoniker": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_3_task_4\\DataStructuresPage.xaml.cs",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_3_task_4\\DataStructuresPage.xaml.cs",
@@ -166,12 +177,11 @@
               "RelativeToolTip": "AaDS_project\\Topic_3_task_4\\DataStructuresPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:17:34.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:17:34.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VisualizationOfTheFirstSolution.xaml.cs",
               "DocumentMoniker": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_3_task_4\\VisualizationOfTheFirstSolution.xaml.cs",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_3_task_4\\VisualizationOfTheFirstSolution.xaml.cs",
@@ -179,12 +189,11 @@
               "RelativeToolTip": "AaDS_project\\Topic_3_task_4\\VisualizationOfTheFirstSolution.xaml.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAowGoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:27:19.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:27:19.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DynamicProgrammingPage.xaml",
               "DocumentMoniker": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml",
@@ -192,21 +201,7 @@
               "RelativeToolTip": "AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml",
               "ViewState": "AgIAABYAAAAAAAAAAAAAAFIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-27T09:39:51.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DynamicProgrammingPage.xaml.cs",
-              "DocumentMoniker": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml.cs",
-              "RelativeDocumentMoniker": "AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml.cs",
-              "ToolTip": "D:\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u0410\u0438\u0421\u0414\\AaDS_project\\AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml.cs",
-              "RelativeToolTip": "AaDS_project\\Topic_2_task_1\\DynamicProgrammingPage.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T09:40:21.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T09:39:51.814Z"
             },
             {
               "$type": "Document",
@@ -218,8 +213,7 @@
               "RelativeToolTip": "AaDS_project\\MainPage.xaml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T10:33:48.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T10:33:48.357Z"
             },
             {
               "$type": "Document",
@@ -231,8 +225,7 @@
               "RelativeToolTip": "AaDS_project\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:41:04.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T10:41:04.632Z"
             },
             {
               "$type": "Document",
@@ -244,8 +237,7 @@
               "RelativeToolTip": "AaDS_project\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:44:21.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T10:44:21.706Z"
             },
             {
               "$type": "Document",
@@ -257,8 +249,7 @@
               "RelativeToolTip": "AaDS_project\\Topic_2_task_1\\VisualizationOfTheSecondSolution1.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-27T09:46:38.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T09:46:38.958Z"
             },
             {
               "$type": "Document",
@@ -270,8 +261,7 @@
               "RelativeToolTip": "AaDS_project\\Topic_3_task_4\\DataStructuresPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T10:41:51.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T10:41:51.471Z"
             },
             {
               "$type": "Document",
@@ -283,8 +273,7 @@
               "RelativeToolTip": "AaDS_project\\Topic_3_task_4\\LeadTimeTwoSolution.xaml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T16:43:52.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T16:43:52.65Z"
             },
             {
               "$type": "Document",
@@ -296,8 +285,7 @@
               "RelativeToolTip": "AaDS_project\\Topic_3_task_4\\VisualizationOfTheFirstSolution.xaml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAswCIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T11:23:14.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T11:23:14.066Z"
             },
             {
               "$type": "Document",
@@ -357,8 +345,7 @@
               "RelativeToolTip": "AaDS_project\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-25T13:00:55.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T13:00:55.236Z"
             },
             {
               "$type": "Document",
