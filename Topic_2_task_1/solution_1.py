@@ -27,7 +27,21 @@ def count_max_cost_1(buyer: list[int], seller: list[int]) -> int | None:
     if max_affordable == 0:  
         print ("У покупателя нет денег!")
         return None
-    if min(buyer) <= min(seller):
-        print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
+    
+    if len(seller) == 0:
+        max_not_affordable = max_affordable - 1
+        min_buyer_sum = min(buyer_sums)
+        print(buyer_sums)
+        print(max_not_affordable)
+        while max_not_affordable >= min_buyer_sum:
+            if buyer_sums.__contains__(max_not_affordable):
+                max_not_affordable -= 1
+            else:
+                return max_not_affordable
+        print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")  
         return None
-    return min(buyer) - min(seller) - 1
+    else:
+        if min(buyer) <= min(seller):
+            print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
+            return None
+        return min(buyer) - min(seller) - 1
