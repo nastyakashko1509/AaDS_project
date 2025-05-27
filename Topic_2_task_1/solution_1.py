@@ -1,4 +1,4 @@
-def input_list(n: int) -> list[int]:
+def input_list_1(n: int) -> list[int]:
     money = []
     for i in range(n):
         while True:
@@ -23,7 +23,7 @@ def get_possible_sums(coins: list[int]) -> set[int]:
                 dp[j] = True
     return {s for s in range(max_sum + 1) if dp[s]}
 
-def count_max_cost(buyer: list[int], seller: list[int]) -> int | None:
+def count_max_cost_1(buyer: list[int], seller: list[int]) -> int | None:
     buyer_sums = get_possible_sums(buyer)
     seller_sums = get_possible_sums(seller)
     
