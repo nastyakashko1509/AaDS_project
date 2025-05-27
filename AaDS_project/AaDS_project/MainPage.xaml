@@ -41,23 +41,15 @@
                     HorizontalOptions="Center"
                     WidthRequest="750" />
 
-            <Button Text="Задача (максимальная стоимость товара) на тему 'Разработка эффективных алгоритмов'"
+            <Button Text="Задачи на тему 'Разработка эффективных алгоритмов'"
                     FontSize="16"
                     BackgroundColor="#27ae60"
                     TextColor="White"
                     CornerRadius="10"
                     Padding="12"
                     HorizontalOptions="Center"
-                    WidthRequest="750" />
-
-            <Button Text="Задача (выбрать подпоследовательность)\nна тему 'Разработка эффективных алгоритмов'"
-                    FontSize="16"
-                    BackgroundColor="#27ae60"
-                    TextColor="White"
-                    CornerRadius="10"
-                    Padding="12"
-                    HorizontalOptions="Center"
-                    WidthRequest="750" />
+                    WidthRequest="750"
+                    Clicked="GoToTheDynamicProgrammingPage" />
 
             <Button Text="Задача на тему 'Структуры данных'"
                     FontSize="16"

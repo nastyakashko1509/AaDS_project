@@ -16,5 +16,4 @@ public partial class DataStructuresPage : ContentPage
     {
         await Shell.Current.GoToAsync("/VisualizationOfTheSecondSolution");
     }
-
 }
