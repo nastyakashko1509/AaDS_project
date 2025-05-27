@@ -1,63 +1,79 @@
-from solution_1 import TreeNode, solve_task, input_tree, preorder_traversal
+from solution_1 import TreeNode, count_nodes, find_nodes_with_condition, right_delete, solve
 import unittest
-from unittest.mock import patch
-from io import StringIO
 
-class TestTreeOperations(unittest.TestCase):
+import unittest
 
-    def test_no_candidates(self):
-        """Тест, когда нет подходящих вершин для удаления"""
-        root = TreeNode(10)
-        root.left = TreeNode(5)
-        root.right = TreeNode(15)
-        result = solve_task(root)
-        self.assertEqual(result, [10, 5, 15])
+class TestTreeFunctions(unittest.TestCase):
+    def setUp(self):
+        # Дерево для тестов
+        #       10
+        #      /  \
+        #     5    15
+        #    / \   / \
+        #   2   7 12 20
+        #  / \
+        # 1   3
+        self.root = TreeNode(10)
+        self.root.left = TreeNode(5)
+        self.root.right = TreeNode(15)
+        self.root.left.left = TreeNode(2)
+        self.root.left.right = TreeNode(7)
+        self.root.right.left = TreeNode(12)
+        self.root.right.right = TreeNode(20)
+        self.root.left.left.left = TreeNode(1)
+        self.root.left.left.right = TreeNode(3)
 
-    def test_single_candidate(self):
-        """Тест с одной подходящей вершиной"""
-        root = TreeNode(10)
-        root.left = TreeNode(5)
-        root.left.right = TreeNode(7)
-        root.right = TreeNode(15)
-        result = solve_task(root)
-        # Должна удалиться вершина 5, останется [10, 15, 7]
-        self.assertEqual(result, [10, 15, 7])
+    def test_count_nodes(self):
+        self.assertEqual(count_nodes(self.root), 9)  # Исправлено с 8 на 9
+        self.assertEqual(count_nodes(self.root.left), 5)
+        self.assertEqual(count_nodes(self.root.right), 3)
+        self.assertEqual(count_nodes(None), 0)
 
-    def test_input_tree(self):
-        """Тест функции ввода дерева"""
-        input_data = [
-            "10 5 15",
-            "5 2 7",
-            "15 None 20",
-            "20 18 None",
-            ""  # Пустая строка для завершения
-        ]
-        
-        expected_structure = [10, 5, 2, 7, 15, 20, 18]
-        
-        with patch('builtins.input', side_effect=input_data):
-            root = input_tree()
-            result = preorder_traversal(root)
-            self.assertEqual(result, expected_structure)
+    def test_find_nodes_with_condition(self):
+        nodes = []
+        find_nodes_with_condition(self.root, nodes)
+        self.assertEqual(len(nodes), 0)  # В исходном дереве нет подходящих вершин
 
-    def test_complex_case(self):
-        """Тест сложного случая с несколькими уровнями"""
-        root = TreeNode(50)
-        root.left = TreeNode(30)
-        root.left.left = TreeNode(20)
-        root.left.left.left = TreeNode(10)
-        root.left.right = TreeNode(40)
-        root.right = TreeNode(70)
-        root.right.left = TreeNode(60)
-        root.right.left.right = TreeNode(65)
-        root.right.right = TreeNode(80)
-        
-        result = solve_task(root)
-        # Подходящие вершины: 20 (1:0), 60 (0:1), 30 (3:1), 70 (2:1)
-        # Сортировка: 20, 30, 60, 70 → средняя 30
-        # После удаления 30 должно быть [50, 40, 20, 10, 70, 60, 65, 80]
-        self.assertEqual(result, [50, 40, 20, 10, 70, 60, 65, 80])
+        # Добавляем вершину 4 как правого потомка 3 → теперь подходит 2 и 3
+        self.root.left.left.right.right = TreeNode(4)
+        nodes = []
+        find_nodes_with_condition(self.root, nodes)
+        self.assertEqual(len(nodes), 2)  # Теперь подходят 2 и 3
+        self.assertEqual({node.value for node in nodes}, {2, 3})  # Проверяем значения
 
+    def test_right_delete(self):
+        new_root = right_delete(self.root, 5)
+        self.assertEqual(new_root.left.value, 7)
+        self.assertEqual(new_root.left.left.value, 2)
+        self.assertEqual(new_root.left.right, None)
+
+    def test_solve_no_nodes_to_delete(self):
+        result = solve(self.root)
+        self.assertEqual(result, [10, 5, 2, 1, 3, 7, 15, 12, 20])
+
+    def test_solve_with_node_to_delete(self):
+        self.root.left.left.right.right = TreeNode(4)
+        result = solve(self.root)
+        # После удаления средней по значению вершины (2 или 3)
+        # В данном случае вершины [2, 3] → средняя 3 → удаляем 3
+        # Дерево после удаления:
+        #       10
+        #      /  \
+        #     5    15
+        #    / \   / \
+        #   2   7 12 20
+        #  /     \
+        # 1       4
+        self.assertEqual(result, [10, 5, 2, 1, 4, 7, 15, 12, 20])
+
+    def test_empty_tree(self):
+        result = solve(None)
+        self.assertEqual(result, [])
+
+    def test_single_node_tree(self):
+        root = TreeNode(1)
+        result = solve(root)
+        self.assertEqual(result, [1])
 
 if __name__ == '__main__':
     unittest.main()
