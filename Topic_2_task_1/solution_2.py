@@ -21,4 +21,3 @@ def count_max_cost_2(buyer: list[int], seller: list[int]) -> int | None:
             return p
 
     return None
-

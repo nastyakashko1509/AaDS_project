@@ -26,12 +26,8 @@ seller = input_list(m)
 result_1 = count_max_cost_1(buyer, seller)
 result_2 = count_max_cost_2(buyer, seller)
 
-if result_1 is None:
-    print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
-else:
+if result_1 != None:
     print(f"Максимальная стоимость товара, которую нельзя точно оплатить (решение 1): {result_1}")
 
-if result_2 is None:
-    print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
-else:
+if result_2 != None:
     print(f"Максимальная стоимость товара, которую нельзя точно оплатить (решение 2): {result_2}")

@@ -1,18 +1,3 @@
-def input_list_1(n: int) -> list[int]:
-    money = []
-    for i in range(n):
-        while True:
-            try:
-                x = int(input(f"Введите номинал {i+1}-ой купюры: "))
-                if x > 0:
-                    money.append(x)
-                    break
-                else:
-                    print("Значение должно быть > 0")
-            except ValueError:
-                print("Введите целое число")
-    return money
-
 def get_possible_sums(coins: list[int]) -> set[int]:
     max_sum = sum(coins)
     dp = [False] * (max_sum + 1)
@@ -39,10 +24,10 @@ def count_max_cost_1(buyer: list[int], seller: list[int]) -> int | None:
         if p not in possible_p:
             return p
     
-    # Если все p от 1 до max_affordable возможны
-    if max_affordable == 0:  # У покупателя нет денег
+    if max_affordable == 0:  
+        print ("У покупателя нет денег!")
         return None
-    # Если есть деньги, но все p возможны - значит минимальная купюра покупателя ≤ минимальной продавца
     if min(buyer) <= min(seller):
+        print("Покупатель может точно оплатить любую стоимость до своей максимальной суммы")
         return None
     return min(buyer) - min(seller) - 1
