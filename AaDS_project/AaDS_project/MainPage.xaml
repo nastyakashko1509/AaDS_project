@@ -39,7 +39,8 @@
                     CornerRadius="10"
                     Padding="12"
                     HorizontalOptions="Center"
-                    WidthRequest="750" />
+                    WidthRequest="750"                     
+                    Clicked="GoToTheBinarySearchTreesPage" />
 
             <Button Text="Задачи на тему 'Разработка эффективных алгоритмов'"
                     FontSize="16"

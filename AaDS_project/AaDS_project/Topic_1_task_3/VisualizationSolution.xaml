@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_1_task_3.VisualizationSolution"
+             Title="Визуализация решения">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <Label Text="Визуализация решения задачи о бинарном дереве" 
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center"/>
+
+            <Frame BorderColor="Gray" CornerRadius="10" Padding="10">
+                <StackLayout Spacing="10">
+                    <Label Text="Инструкция по вводу дерева:" FontAttributes="Bold"/>
+                    <Label Text="Формат ввода: левый_потомок корень правый_потомок"/>
+                    <Label Text="Для пустого узла используйте 'None'"/>
+                    <Label Text="Пример: None 10 None - создает корень 10 без потомков"/>
+                    <Label Text="Введите 'end' для завершения ввода"/>
+                </StackLayout>
+            </Frame>
+
+            <Editor x:Name="TreeInput" 
+                    Placeholder="Введите дерево построчно..."
+                    HeightRequest="100"
+                    AutoSize="TextChanges"/>
+
+            <Button Text="Построить дерево" 
+                    Clicked="OnBuildTreeClicked"
+                    BackgroundColor="#512BD4"
+                    TextColor="White"/>
+
+            <Button x:Name="VisualizeSolutionButton" 
+                    Text="Визуализировать решение" 
+                    Clicked="OnVisualizeSolutionClicked"
+                    BackgroundColor="#2B0B98"
+                    TextColor="White"
+                    IsEnabled="False"/>
+
+            <Label x:Name="InfoLabel" Text="" FontAttributes="Italic"/>
+
+            <Frame BorderColor="LightGray" CornerRadius="10" Padding="10">
+                <StackLayout>
+                    <Label Text="Исходное дерево:" FontAttributes="Bold"/>
+                    <GraphicsView x:Name="OriginalTreeView" HeightRequest="400" WidthRequest="600"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="LightGray" CornerRadius="10" Padding="10">
+                <StackLayout>
+                    <Label Text="Шаги решения:" FontAttributes="Bold"/>
+                    <Label x:Name="StepDescription" Text=""/>
+                    <GraphicsView x:Name="SolutionTreeView" HeightRequest="400" WidthRequest="600"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="LightGray" CornerRadius="10" Padding="10">
+                <StackLayout>
+                    <Label Text="Результат:" FontAttributes="Bold"/>
+                    <Label x:Name="ResultLabel" Text=""/>
+                    <Label Text="Обход после удаления:" FontAttributes="Bold"/>
+                    <Label x:Name="TraversalResult" Text=""/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+    

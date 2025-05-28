@@ -21,5 +21,10 @@
         {
             await Shell.Current.GoToAsync("/TaskPage");
         }
+
+        private async void GoToTheBinarySearchTreesPage(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("/BinarySearchTreesPage");
+        }
     }
 }

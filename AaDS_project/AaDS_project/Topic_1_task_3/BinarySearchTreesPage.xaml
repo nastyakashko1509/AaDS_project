@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_1_task_3.BinarySearchTreesPage"
+             BackgroundColor="#f8f9fa"
+             Title="Бинарные поисковые деревья">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20"
+                             Spacing="25"
+                             VerticalOptions="Center"
+                             HorizontalOptions="Center">
+
+            <Frame BackgroundColor="LightGreen"
+                   BorderColor="DarkGreen"
+                   CornerRadius="12"
+                   Padding="16"
+                   WidthRequest="550"
+                   HasShadow="True">
+                <Label Text="Задача: найти и удалить (правым удалением) среднюю по значению вершину из вершин дерева, у которых количество потомков в левом поддереве отличается от количества потомков в правом поддереве на 1. Выполнить прямой (левый) обход полученного дерева."
+                       FontSize="16"
+                       TextColor="DarkGreen"
+                       HorizontalTextAlignment="Start"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+            
+            <Grid ColumnSpacing="20" RowSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Визуализация решения"
+                        FontSize="16"
+                        BackgroundColor="Pink"
+                        TextColor="DeepPink"
+                        BorderColor="DeepPink"
+                        BorderWidth="1"
+                        CornerRadius="10"
+                        Padding="12"
+                        HorizontalOptions="Fill"
+                        Grid.Row="0" Grid.Column="0"
+                        Clicked="OnVisualizationClicked" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
