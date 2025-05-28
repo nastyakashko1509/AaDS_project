@@ -1,45 +1,71 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AaDS_project.Topic_4_Task_9.LeadTimeSolutions">
+             x:Class="AaDS_project.Topic_4_Task_9.LeadTimeSolutions"
+             Title="Время выполнения задачи"
+             BackgroundColor="#f8f9fa">
 
-    <HorizontalStackLayout>
-        <VerticalStackLayout Padding="20" Spacing="15">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
 
-            <Button Text="Запустить решение 1"
-                x:Name="RunButton_1"
-                Clicked="RunButton_1_Clicked"
-                HorizontalOptions="Center" />
+            <Label Text="⏳ Сравнение времени выполнения решений"
+                   FontSize="20"
+                   TextColor="#2c3e50"
+                   HorizontalOptions="Center" />
 
-            <Label x:Name="ResultLabel_1"
-               Text="Нажмите кнопку для запуска"
-               HorizontalOptions="Center"
-               FontSize="16" />
+            <Frame BackgroundColor="#ECF0F1"
+                   CornerRadius="10"
+                   Padding="15"
+                   HasShadow="True">
 
-            <Label x:Name="ResultLabel_2"
-               Text="Нажмите кнопку для запуска"
-               HorizontalOptions="Center"
-               FontSize="16" />
+                <VerticalStackLayout Spacing="15">
+                    <Button Text="▶ Запустить решение 1"
+                            x:Name="RunButton_1"
+                            Clicked="RunButton_1_Clicked"
+                            BackgroundColor="#5DADE2"
+                            TextColor="White"
+                            CornerRadius="10"/>
+
+                    <Label x:Name="ResultLabel_1"
+                           Text="Нажмите кнопку для запуска"
+                           FontSize="16"
+                           TextColor="#2c3e50"/>
+
+                    <Label x:Name="ResultLabel_2"
+                           Text=""
+                           FontSize="14"
+                           TextColor="#7f8c8d"/>
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame BackgroundColor="#ECF0F1"
+                   CornerRadius="10"
+                   Padding="15"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="15">
+                    <Button Text="▶ Запустить решение 2 (с проверкой на связность)"
+                            x:Name="RunButton_2"
+                            Clicked="RunButton_2_Clicked"
+                            BackgroundColor="#58D68D"
+                            TextColor="White"
+                            CornerRadius="10"/>
+
+                    <Label x:Name="ResultLabel_3"
+                           Text="Нажмите кнопку для запуска"
+                           FontSize="16"
+                           TextColor="#2c3e50"/>
+
+                    <Label x:Name="ResultLabel_4"
+                           Text=""
+                           FontSize="14"
+                           TextColor="#7f8c8d"/>
+                </VerticalStackLayout>
+
+            </Frame>
 
         </VerticalStackLayout>
-
-        <VerticalStackLayout Padding="20" Spacing="15">
-            <Button Text="Запустить решение 2 (с проверкой на связность)"
-                x:Name="RunButton_2"
-                Clicked="RunButton_2_Clicked"
-                HorizontalOptions="Center" />
-
-            <Label x:Name="ResultLabel_3"
-               Text="Нажмите кнопку для запуска"
-               HorizontalOptions="Center"
-               FontSize="16" />
-
-            <Label x:Name="ResultLabel_4"
-               Text="Нажмите кнопку для запуска"
-               HorizontalOptions="Center"
-               FontSize="16" />
-
-        </VerticalStackLayout>
-    </HorizontalStackLayout>
+    </ScrollView>
 
 </ContentPage>

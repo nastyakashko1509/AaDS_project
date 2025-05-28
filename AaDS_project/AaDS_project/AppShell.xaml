@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:AaDS_project"
     xmlns:topic_three="clr-namespace:AaDS_project.Topic_3_task_4"
     xmlns:topic_two_one="clr-namespace:AaDS_project.Topic_2_task_1"
+    xmlns:topic_two_nine="clr-namespace:AaDS_project.Topic_2_task_9"
     xmlns:topic_four="clr-namespace:AaDS_project.Topic_4_Task_9"
     Shell.FlyoutBehavior="Flyout">
 
@@ -20,12 +21,17 @@
         Route="LeadTimeSolution1" />
 
     <ShellContent
-        Title="Время выполнения 2-го решения (Тема 3)"
+        Title="Темя 2, задача 9"
+        ContentTemplate="{DataTemplate topic_two_nine:LeadTimeTask9}"
+        Route="LeadTimeTask9" />
+
+    <ShellContent
+        Title="Тема 3, задача 4 (2-ое решение)"
         ContentTemplate="{DataTemplate topic_three:LeadTimeTwoSolution}"
         Route="LeadTimeTwoSolution" />
 
     <ShellContent
-        Title="Время решений (Тема 4)"
+        Title="Тема 4, задача 9"
         ContentTemplate="{DataTemplate topic_four:LeadTimeSolutions}"
         Route="LeadTimeSolutions" />
 

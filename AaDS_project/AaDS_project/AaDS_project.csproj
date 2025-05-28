@@ -90,6 +90,9 @@
 	  <MauiXaml Update="Topic_2_task_1\VisualizationOfTheFirstSolution1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Topic_2_task_9\LeadTimeTask9.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Topic_3_task_4\DataStructuresPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -111,10 +114,6 @@
 	  <MauiXaml Update="Topic_4_Task_9\TaskPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Topic_2_task_9\" />
 	</ItemGroup>
 
 </Project>
