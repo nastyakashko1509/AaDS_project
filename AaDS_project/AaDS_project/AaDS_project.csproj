@@ -98,6 +98,9 @@
 	  <MauiXaml Update="Topic_4_Task_9\GraphPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Topic_4_Task_9\LeadTimeSolutions.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Topic_4_Task_9\TaskPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

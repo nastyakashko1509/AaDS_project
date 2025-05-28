@@ -23,7 +23,7 @@
                    VerticalTextAlignment="Center" />
             </Frame>
 
-            <Button Text="Визуализация 1-го решения"
+            <Button Text="Визуализация решения"
                 FontSize="16"
                 BackgroundColor="#3498db"
                 TextColor="White"

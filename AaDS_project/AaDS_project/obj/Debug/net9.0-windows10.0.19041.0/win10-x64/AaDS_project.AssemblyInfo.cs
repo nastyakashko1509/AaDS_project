@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AaDS_project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fabd30303c031242772992ad4a8619cd924ec580")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+38b6c5e3f060f24a283a489635313fac5fa87589")]
 [assembly: System.Reflection.AssemblyProductAttribute("AaDS_project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AaDS_project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
