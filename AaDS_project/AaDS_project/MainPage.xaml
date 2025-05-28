@@ -68,7 +68,8 @@
                     CornerRadius="10"
                     Padding="12" 
                     HorizontalOptions="Center"
-                    WidthRequest="750" />
+                    WidthRequest="750"
+                    Clicked="GoToTaskPage"/>
 
         </VerticalStackLayout>
     </ScrollView>

@@ -9,6 +9,6 @@
                 Clicked="OnMeasureTimeClicked" />
         <Label x:Name="ResultLabel"
                FontSize="18"
-               TextColor="Black" />
+               TextColor="White" />
     </VerticalStackLayout>
 </ContentPage>

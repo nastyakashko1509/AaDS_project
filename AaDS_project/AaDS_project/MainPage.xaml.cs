@@ -16,5 +16,10 @@
         {
             await Shell.Current.GoToAsync("/DynamicProgrammingPage");
         }
+
+        private async void GoToTaskPage(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("/TaskPage");
+        }
     }
 }

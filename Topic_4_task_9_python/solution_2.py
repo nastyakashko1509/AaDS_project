@@ -1,43 +1,50 @@
 import numpy as np
 from collections import deque
 
-def solution_2(matrix: np.ndarray) -> tuple[bool, int]:
-    n = matrix.shape[0]
-    if n == 0:
+def input_matrix():
+    n = int(input("Введите количество человек: "))
+    print("Введите матрицу знакомств построчно (0 или 1 через пробел):")
+    matrix = []
+    for _ in range(n):
+        row = list(map(int, input().split()))
+        matrix.append(row)
+    return np.array(matrix)
+    
+def can_be_introduced(matrix: np.ndarray):
+    graph_edges_count = matrix.sum() / 2
+    n = float(matrix.shape[0])
+    
+    if graph_edges_count > (n-1)*(n-2) / 2:
         return True
+    return False    
     
-    # Поскольку знакомства взаимные, матрица должна быть симметричной
-    # Проверим это и сделаем граф неориентированным
-    for i in range(n):
-        for j in range(n):
-            if matrix[i, j] != matrix[j, i]:
-                matrix[j, i] = matrix[i, j]  # Симметризуем матрицу
+def solution_2(matrix: np.ndarray):
+    can_introduce = can_be_introduced(matrix)
     
-    visited = [False] * n
-    max_component_size = 0
-    
-    for i in range(n):
-        if not visited[i]:
-            # Начинаем BFS для текущей компоненты связности
-            queue = deque()
-            queue.append(i)
-            visited[i] = True
-            component_size = 0
-            
-            while queue:
-                v = queue.popleft()
-                component_size += 1
-                
-                for neighbor in range(n):
-                    if matrix[v, neighbor] == 1 and not visited[neighbor]:
-                        visited[neighbor] = True
-                        queue.append(neighbor)
-            
-            if component_size > max_component_size:
-                max_component_size = component_size
-    
-    # Проверяем, связаны ли все вершины (т.е. есть только одна компонента)
-    if max_component_size == n:
+    if can_introduce:
         return True
     else:
-        return (False, max_component_size)
+        n = matrix.shape[0]
+        visited = [False] * n
+        max_size = 0
+
+        for i in range(n):
+            if not visited[i]:
+                queue = deque([i])
+                visited[i] = True
+                current_size = 1
+                
+                while queue:
+                    v = queue.popleft()
+                    for u in range(n):
+                        if matrix[v][u] == 1 and not visited[u]:
+                            visited[u] = True
+                            queue.append(u)
+                            current_size += 1
+                
+                max_size = max(max_size, current_size)
+        
+        if max_size == n:
+            return True
+        else:
+            return (False, max_size)
