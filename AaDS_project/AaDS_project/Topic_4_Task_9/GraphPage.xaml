@@ -1,0 +1,66 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_4_Task_9.GraphPage"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Maui.Controls;assembly=SkiaSharp.Views.Maui.Controls"
+             Title="Анализ графа знакомств"
+             BackgroundColor="#f4f4f4">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20" HorizontalOptions="Center">
+
+            <Label Text="Количество человек в группе:"
+                   TextColor="Black"
+                   FontSize="16" />
+
+            <Entry x:Name="CountEntry"
+                   Placeholder="Например: 5"
+                   Keyboard="Numeric"
+                   FontSize="16"
+                   TextColor="Black"
+                   WidthRequest="300" />
+
+            <Label Text="Матрица знакомств (каждая строка на новой строке, числа через пробел):"
+                   TextColor="Black"
+                   FontSize="16" />
+
+            <Editor x:Name="MatrixEditor" 
+                    HeightRequest="200"
+                    WidthRequest="300"
+                    AutoSize="TextChanges"
+                    FontSize="14"
+                    BackgroundColor="White"
+                    TextColor="Black" />
+
+            <Button Text="Анализировать граф"
+                    Clicked="OnCheckConnectivityClicked"
+                    BackgroundColor="#3498db"
+                    TextColor="Black"
+                    WidthRequest="250"
+                    CornerRadius="10" />
+
+            <Frame x:Name="ResultFrame"
+                   Padding="15"
+                   BackgroundColor="#ECF0F1"
+                   BorderColor="#B2BABB"
+                   CornerRadius="12"
+                   WidthRequest="300">
+                <Label x:Name="ResultLabel"
+                       FontSize="14"
+                       TextColor="Black"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+
+            <skia:SKCanvasView x:Name="GraphCanvas"
+                               PaintSurface="OnCanvasViewPaint"
+                               HeightRequest="400"
+                               WidthRequest="400"
+                               HorizontalOptions="Center" />
+
+            <VerticalStackLayout x:Name="StepsContainer"
+                               Spacing="10"
+                               Padding="10"
+                               WidthRequest="300" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

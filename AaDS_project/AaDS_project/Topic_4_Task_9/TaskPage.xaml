@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_4_Task_9.TaskPage"
+             BackgroundColor="#f8f9fa"
+             Title="TaskPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="20"
+                         Spacing="25"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center">
+
+            <Frame BackgroundColor="White"
+               BorderColor="#dcdcdc"
+               CornerRadius="12"
+               Padding="16"
+               WidthRequest="550"
+               HasShadow="True">
+                <Label Text="Задача: на олимпиаду прибыло n человек. Некоторые из них знакомы между собой. Круг знакомств задается матрицей A размером n×n. Элемент матрицы A[i, j] = 1, если i-й человек знает j-го, и A[i, j] = 0 в противном случае (если i-й человек знает j-го, то считаем, что и j-й человек знает i-го). Необходимо определить, можно ли опосредованно перезнакомить всех людей между собой (незнакомые люди могут познакомиться только через общего знакомого)? Если нет, то какое максимальное количество людей будут знать друг друга?"
+                   FontSize="16"
+                   TextColor="#2c3e50"
+                   HorizontalTextAlignment="Start"
+                   VerticalTextAlignment="Center" />
+            </Frame>
+
+            <Button Text="Визуализация 1-го решения"
+                FontSize="16"
+                BackgroundColor="#3498db"
+                TextColor="White"
+                CornerRadius="10"
+                Padding="12"
+                HorizontalOptions="Center"
+                WidthRequest="280"
+                Clicked="OnFirstVisualizationClicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

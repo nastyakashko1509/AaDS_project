@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AaDS_project
-build_property.ProjectDir = D:\4 семестр\АиСД\AaDS_project\AaDS_project\
+build_property.ProjectDir = C:\Users\zgdas\2 course\2 sem\AaDS_project\AaDS_project\AaDS_project\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -22,74 +22,86 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/App.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/AppShell.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/MainPage.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Resources/Styles/Colors.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Resources/Styles/Styles.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_2_task_1/DynamicProgrammingPage.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_2_task_1/DynamicProgrammingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_2_task_1.DynamicProgrammingPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Topic_2_task_1\DynamicProgrammingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_2_task_1\DynamicProgrammingPage.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_2_task_1/LeadTimeSolution1.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_2_task_1/LeadTimeSolution1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_2_task_1.LeadTimeSolution1.xaml
 build_metadata.AdditionalFiles.TargetPath = Topic_2_task_1\LeadTimeSolution1.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_2_task_1\LeadTimeSolution1.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_2_task_1/VisualizationOfTheFirstSolution1.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_2_task_1/VisualizationOfTheFirstSolution1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_2_task_1.VisualizationOfTheFirstSolution1.xaml
 build_metadata.AdditionalFiles.TargetPath = Topic_2_task_1\VisualizationOfTheFirstSolution1.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_2_task_1\VisualizationOfTheFirstSolution1.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_3_task_4/DataStructuresPage.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_3_task_4/DataStructuresPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_3_task_4.DataStructuresPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Topic_3_task_4\DataStructuresPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_3_task_4\DataStructuresPage.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_3_task_4/LeadTimeTwoSolution.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_3_task_4/LeadTimeTwoSolution.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_3_task_4.LeadTimeTwoSolution.xaml
 build_metadata.AdditionalFiles.TargetPath = Topic_3_task_4\LeadTimeTwoSolution.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_3_task_4\LeadTimeTwoSolution.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_3_task_4/VisualizationOfTheFirstSolution.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_3_task_4/VisualizationOfTheFirstSolution.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_3_task_4.VisualizationOfTheFirstSolution.xaml
 build_metadata.AdditionalFiles.TargetPath = Topic_3_task_4\VisualizationOfTheFirstSolution.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_3_task_4\VisualizationOfTheFirstSolution.xaml
 
-[D:/4 семестр/АиСД/AaDS_project/AaDS_project/Topic_3_task_4/VisualizationOfTheSecondSolution.xaml]
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_3_task_4/VisualizationOfTheSecondSolution.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_3_task_4.VisualizationOfTheSecondSolution.xaml
 build_metadata.AdditionalFiles.TargetPath = Topic_3_task_4\VisualizationOfTheSecondSolution.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_3_task_4\VisualizationOfTheSecondSolution.xaml
+
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_4_Task_9/GraphPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_4_Task_9.GraphPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Topic_4_Task_9\GraphPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Topic_4_Task_9\GraphPage.xaml
+
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_4_Task_9/TaskPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_4_Task_9.TaskPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Topic_4_Task_9\TaskPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Topic_4_Task_9\TaskPage.xaml
