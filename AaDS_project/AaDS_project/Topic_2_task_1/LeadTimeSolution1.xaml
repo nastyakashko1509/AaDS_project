@@ -2,13 +2,63 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AaDS_project.Topic_2_task_1.LeadTimeSolution1"
-             Title="Время выполнения">
+             Title="Тестирование производительности"
+             BackgroundColor="#f5f7fa">
 
-    <VerticalStackLayout Padding="20" Spacing="20">
-        <Button Text="Измерить время выполнения"
-                Clicked="OnMeasureTimeClicked" />
-        <Label x:Name="ResultLabel"
-               FontSize="18"
-               TextColor="White" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="25">
+
+            <!-- Заголовок -->
+            <Label Text="⏱️ Измерение времени выполнения"
+                   FontSize="22"
+                   TextColor="#2b3a4a"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <!-- Основная карточка -->
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="14"
+                   Padding="20"
+                   BorderColor="#e0e3e7"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="20">
+
+                    <!-- Кнопка измерения -->
+                    <Button Text="▶ Запустить замер времени"
+                            Clicked="OnMeasureTimeClicked"
+                            BackgroundColor="#4a89dc"
+                            TextColor="White"
+                            FontSize="16"
+                            CornerRadius="10"
+                            HeightRequest="48"
+                            HorizontalOptions="FillAndExpand"/>
+
+                    <!-- Блок результатов -->
+                    <Frame BackgroundColor="#f8fafc"
+                           CornerRadius="10"
+                           Padding="15"
+                           BorderColor="#e0e3e7"
+                           IsVisible="{Binding Source={x:Reference ResultLabel}, Path=Text.Length, Converter={StaticResource IntToBoolConverter}}">
+
+                        <Label x:Name="ResultLabel"
+                               FontSize="16"
+                               TextColor="#3d4852"
+                               LineBreakMode="WordWrap"
+                               HorizontalOptions="Center"/>
+                    </Frame>
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Информационный блок -->
+            <Label Text="Для точных результатов закройте фоновые приложения и повторите тест несколько раз"
+                   FontSize="14"
+                   TextColor="#7a8a9a"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>

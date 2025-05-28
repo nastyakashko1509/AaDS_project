@@ -2,11 +2,9 @@ def longest_divisible_subsequence(A):
     if not A:
         return []
     
-    # Создаем список с абсолютными значениями для сортировки и анализа
     abs_A = [abs(x) for x in A]
     n = len(A)
     
-    # Сортируем индексы по абсолютным значениям
     sorted_indices = sorted(range(n), key=lambda i: abs_A[i])
     
     dp = [1] * n
@@ -24,7 +22,6 @@ def longest_divisible_subsequence(A):
     max_len = max(dp)
     max_len_index = dp.index(max_len)
     
-    # Восстанавливаем подпоследовательность с оригинальными значениями
     subsequence = []
     current = max_len_index
     while current != -1:
