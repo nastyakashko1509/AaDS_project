@@ -1,0 +1,86 @@
+# ======================
+# Visual Studio / C# / MAUI
+# ======================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.nupkg
+*.nuspec
+*.cache
+*.dll
+*.exe
+*.app
+*.pdb
+
+# MAUI specific
+platforms/
+*.apk
+*.aab
+*.xcarchive
+*.xcuserstate
+
+# macOS and iOS
+*.DS_Store
+*.xcworkspace/
+*.xcodeproj/
+*.plist
+
+# Android
+*.iml
+.gradle/
+.idea/
+*.keystore
+*.apk
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.env
+*.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ======================
+# Visual Studio Code
+# ======================
+.vscode/
+.history/
+*.code-workspace
+
+# Документы Microsoft Office — сохраняем итоговые файлы, но игнорируем распакованные папки
+~$*
+*.tmp/
+*.docx-extracted/
+*.pptx-extracted/
+*.word/
+*.ppt/
+*.PowerPoint/
+
+# ======================
+# OS generated
+# ======================
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+Icon?
+ 

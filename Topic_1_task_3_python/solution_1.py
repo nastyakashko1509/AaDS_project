@@ -65,7 +65,7 @@ def input_tree():
     print("Пример ввода: None 10 None - создает корень 10 без потомков")
     print("Введите 'end' для завершения ввода")
 
-    nodes = {}  # Словарь для хранения узлов: {значение: узел}
+    nodes = {}  
     root = None
 
     while True:
@@ -75,19 +75,16 @@ def input_tree():
 
         left_val, parent_val, right_val = line.split()
 
-        # Создаем/получаем родительский узел
         if parent_val not in nodes:
             nodes[parent_val] = TreeNode(int(parent_val))
-            if root is None:  # Первый узел становится корнем
+            if root is None:  
                 root = nodes[parent_val]
 
-        # Обрабатываем левого потомка
         if left_val != 'None':
             if left_val not in nodes:
                 nodes[left_val] = TreeNode(int(left_val))
             nodes[parent_val].left = nodes[left_val]
 
-        # Обрабатываем правого потомка
         if right_val != 'None':
             if right_val not in nodes:
                 nodes[right_val] = TreeNode(int(right_val))
