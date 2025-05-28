@@ -62,6 +62,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Maui.Graphics" Version="9.0.70" />
 		<PackageReference Include="SkiaSharp.Extended" Version="2.0.0" />
 		<PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="3.119.0" />
 		<PackageReference Include="SkiaSharp.Views.Maui.Core" Version="3.119.0" />
@@ -74,6 +75,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Topic_1_task_3\BinarySearchTreesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Topic_1_task_3\VisualizationSolution.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Topic_2_task_1\DynamicProgrammingPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

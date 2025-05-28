@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AaDS_project.Topic_2_task_1.DynamicProgrammingPage"
-             BackgroundColor="#f8f9fa"
              Title="Динамическое программирование">
 
     <ScrollView>
@@ -11,31 +10,44 @@
                              VerticalOptions="Center"
                              HorizontalOptions="Center">
 
-            <!-- Описание задачи -->
-            <Frame BackgroundColor="White"
-                   BorderColor="#dcdcdc"
-                   CornerRadius="12"
-                   Padding="16"
-                   WidthRequest="550"
-                   HasShadow="True">
-                <Label Text="Задача 1: покупатель имеет n купюр достоинством: a_1,a_2,…a_n  и продавец имеет m купюр достоинством: b_1,b_2,…b_m. Необходимо найти максимальную стоимость товара p, которую покупатель не может купить, потому что нет возможности точно рассчитаться за этот товар с продавцом, хотя денег на покупку у него достаточно."
+            <Grid ColumnSpacing="20" RowSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="500"/>
+                    <ColumnDefinition Width="500"/>
+                </Grid.ColumnDefinitions>
+
+                <Frame BackgroundColor="LightBlue"
+                       BorderColor="DarkBlue"
+                       CornerRadius="12"
+                       Padding="16"
+                       WidthRequest="500"
+                       HasShadow="True"
+                       Grid.Row="0"
+                       Grid.Column="0">
+                    <Label Text="Задача 1: покупатель имеет n купюр достоинством: a_1,a_2,…a_n  и продавец имеет m купюр достоинством: b_1,b_2,…b_m. Необходимо найти максимальную стоимость товара p, которую покупатель не может купить, потому что нет возможности точно рассчитаться за этот товар с продавцом, хотя денег на покупку у него достаточно."
+                           FontSize="16"
+                           TextColor="DarkBlue"
+                           HorizontalTextAlignment="Start"
+                           VerticalTextAlignment="Center" />
+                </Frame>
+                <Frame BackgroundColor="LightBlue"
+                       BorderColor="DarkBlue"
+                       CornerRadius="12"
+                       Padding="16"
+                       WidthRequest="500"
+                       HasShadow="True"
+                       Grid.Row="0"
+                       Grid.Column="1">
+                    <Label Text="Задача 9: выбрать подпоследовательность. Из элементов заданной последовательности целых чисел A длины n необходимо выбрать элементы таким образом, чтобы они образовали подпоследовательность наибольшей длины, в которой каждый последующий элемент делился бы нацело на предыдущий. Порядок следования элементов можно менять."
                        FontSize="16"
-                       TextColor="#2c3e50"
+                       TextColor="DarkBlue"
                        HorizontalTextAlignment="Start"
                        VerticalTextAlignment="Center" />
-            </Frame>
-            <Frame BackgroundColor="White"
-                   BorderColor="#dcdcdc"
-                   CornerRadius="12"
-                   Padding="16"
-                   WidthRequest="550"
-                   HasShadow="True">
-                <Label Text="Задача 9:"
-                   FontSize="16"
-                   TextColor="#2c3e50"
-                   HorizontalTextAlignment="Start"
-                   VerticalTextAlignment="Center" />
-            </Frame>
+                </Frame>
+            </Grid>
 
             <!-- Кнопки -->
             <Grid ColumnSpacing="20" RowSpacing="20">
@@ -49,21 +61,25 @@
 
                 <Button Text="Визуализация решения (задача 1)"
                         FontSize="16"
-                        BackgroundColor="#3498db"
-                        TextColor="White"
+                        BackgroundColor="LightGreen"
+                        BorderColor="DarkGreen"
+                        BorderWidth="1"
+                        TextColor="DarkGreen"
                         CornerRadius="10"
                         Padding="12"
-                        HorizontalOptions="Fill"
+                        HorizontalOptions="Center"
                         Grid.Row="0" Grid.Column="0"
                         Clicked="OnFirstVisualizationClicked1" />
 
                 <Button Text="Визуализация решения (задача 9)"
                         FontSize="16"
-                        BackgroundColor="#3498db"
-                        TextColor="White"
+                        BackgroundColor="LightGreen"
+                        BorderColor="DarkGreen"
+                        BorderWidth="1"
+                        TextColor="DarkGreen"
                         CornerRadius="10"
                         Padding="12"
-                        HorizontalOptions="Fill"
+                        HorizontalOptions="Center"
                         Grid.Row="1" Grid.Column="0"
                         Clicked="OnFirstVisualizationClicked9" />
             </Grid>

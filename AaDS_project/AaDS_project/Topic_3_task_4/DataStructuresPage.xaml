@@ -12,15 +12,15 @@
                              HorizontalOptions="Center">
 
             <!-- Описание задачи -->
-            <Frame BackgroundColor="White"
-                   BorderColor="#dcdcdc"
+            <Frame BackgroundColor="LightGoldenrodYellow"
+                   BorderColor="DarkGoldenrod"
                    CornerRadius="12"
                    Padding="16"
                    WidthRequest="550"
                    HasShadow="True">
                 <Label Text="Задача: в массиве A размера n за одно обращение к каждому элементу массива необходимо каждый элемент заменить ближайшим большим, следующим за ним. Если такого элемента нет, то необходимо заменить его нулём. Можно использовать дополнительную память."
                        FontSize="16"
-                       TextColor="#2c3e50"
+                       TextColor="DarkGoldenrod"
                        HorizontalTextAlignment="Start"
                        VerticalTextAlignment="Center" />
             </Frame>
@@ -28,8 +28,10 @@
             <!-- Кнопки -->
             <Button Text="Визуализация 1-го решения"
                     FontSize="16"
-                    BackgroundColor="#3498db"
-                    TextColor="White"
+                    BackgroundColor="LightBlue"
+                    BorderColor="DarkBlue"
+                    BorderWidth="1"
+                    TextColor="DarkBlue"
                     CornerRadius="10"
                     Padding="12"
                     HorizontalOptions="Center"
@@ -38,8 +40,10 @@
 
             <Button Text="Визуализация 2-го решения"
                     FontSize="16"
-                    BackgroundColor="#2ecc71"
-                    TextColor="White"
+                    BackgroundColor="LightGreen"
+                    BorderColor="DarkGreen"
+                    BorderWidth="1"
+                    TextColor="DarkGreen"
                     CornerRadius="10"
                     Padding="12"
                     HorizontalOptions="Center"
