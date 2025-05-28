@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_2_task_9.SequenceVisualisationPage"
+             BackgroundColor="#f8f9fa"
+             Title="Поиск подпоследовательности">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label Text="Введите элементы массива (через запятую):"
+                   FontSize="16"
+                   TextColor="#2c3e50" />
+            <Entry x:Name="ArrayEntry"
+                   Placeholder="например: 2,-3,4,6,-8,12"
+                   BackgroundColor="White"
+                   TextColor="Black" />
+
+            <Button Text="Найти подпоследовательность"
+                    BackgroundColor="#3498db"
+                    TextColor="White"
+                    CornerRadius="10"
+                    Clicked="OnFindSubsequenceClicked" />
+
+            <Frame x:Name="StatusFrame"
+                   BackgroundColor="#ECF0F1"
+                   Padding="10"
+                   CornerRadius="10"
+                   HasShadow="True">
+                <Label x:Name="StatusLabel"
+                       FontSize="16"
+                       TextColor="Black" />
+            </Frame>
+
+            <VerticalStackLayout x:Name="StepsContainer" Spacing="10" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

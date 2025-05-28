@@ -3611,24 +3611,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\zgdas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4 семестр\\АиСД\\AaDS_project\\AaDS_project\\AaDS_project.csproj",
+      "projectUniqueName": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\AaDS_project.csproj",
       "projectName": "AaDS_project",
-      "projectPath": "D:\\4 семестр\\АиСД\\AaDS_project\\AaDS_project\\AaDS_project.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\4 семестр\\АиСД\\AaDS_project\\AaDS_project\\obj\\",
+      "projectPath": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\AaDS_project.csproj",
+      "packagesPath": "C:\\Users\\zgdas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zgdas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

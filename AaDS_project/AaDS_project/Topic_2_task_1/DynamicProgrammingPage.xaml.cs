@@ -14,5 +14,6 @@ public partial class DynamicProgrammingPage : ContentPage
 
     private async void OnFirstVisualizationClicked9(object sender, EventArgs e)
     {
+        await Shell.Current.GoToAsync("/SequenceVisualisation");
     }
 }
