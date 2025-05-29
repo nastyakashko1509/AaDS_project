@@ -4,6 +4,9 @@ class TreeNode:
         self.left = None
         self.right = None
 
+    def __repr__(self):
+        return f"TreeNode({self.value})"
+
 def count_nodes(node):
     if node is None:
         return 0

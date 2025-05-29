@@ -58,6 +58,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_1_task_
 build_metadata.AdditionalFiles.TargetPath = Topic_1_task_3\BinarySearchTreesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Topic_1_task_3\BinarySearchTreesPage.xaml
 
+[C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_1_task_3/Time.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_1_task_3.Time.xaml
+build_metadata.AdditionalFiles.TargetPath = Topic_1_task_3\Time.xaml
+build_metadata.AdditionalFiles.RelativePath = Topic_1_task_3\Time.xaml
+
 [C:/Users/zgdas/2 course/2 sem/AaDS_project/AaDS_project/AaDS_project/Topic_1_task_3/VisualizationSolution.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AaDS_project.Topic_1_task_3.VisualizationSolution.xaml

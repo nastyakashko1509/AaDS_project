@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AaDS_project.Topic_1_task_3.Time"
+             Title="Анализ производительности дерева"
+             BackgroundColor="#f5f7fa">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="25">
+
+            <Label Text="🌳 Тестирование алгоритмов работы с деревом" 
+                   FontSize="22"
+                   TextColor="#2b3a4a"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="▶ Запустить тестирование" 
+                    Clicked="OnRunTestClicked"
+                    BackgroundColor="#4a89dc"
+                    TextColor="White"
+                    FontSize="16"
+                    CornerRadius="10"
+                    HeightRequest="48"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="0,0,0,10"/>
+
+            <Frame BackgroundColor="#FFFFFF"
+                   CornerRadius="14"
+                   Padding="20"
+                   BorderColor="#e0e3e7"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="15">
+
+                    <Label Text="Структура тестового дерева:"
+                           FontSize="16"
+                           TextColor="#3d4852"
+                           FontAttributes="Bold"/>
+
+                    <Frame BackgroundColor="#f8fafc"
+                           CornerRadius="8"
+                           Padding="15"
+                           BorderColor="#e0e3e7">
+
+                        <Label x:Name="TreeVisualizationLabel"
+                               FontFamily="Courier New"
+                               FontSize="14"
+                               TextColor="#3d4852"
+                               LineBreakMode="WordWrap"/>
+                    </Frame>
+
+                    <Label x:Name="ResultLabel"
+                           FontSize="15"
+                           TextColor="#3d4852"
+                           Margin="0,10,0,0"/>
+
+                    <Label x:Name="TimeLabel"
+                           FontSize="16"
+                           TextColor="#2ecc71"
+                           FontAttributes="Bold"
+                           Margin="0,15,0,0"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Label Text="Для точных результатов рекомендуется проводить тест на реальных устройствах"
+                   FontSize="14"
+                   TextColor="#7a8a9a"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
