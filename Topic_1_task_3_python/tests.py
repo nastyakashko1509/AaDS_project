@@ -62,8 +62,8 @@ class TestTreeFunctions(unittest.TestCase):
         #     5    15
         #    / \   / \
         #   2   7 12 20
-        #  /     \
-        # 1       4
+        #  / \
+        # 1   4
         self.assertEqual(result, [10, 5, 2, 1, 4, 7, 15, 12, 20])
 
     def test_empty_tree(self):

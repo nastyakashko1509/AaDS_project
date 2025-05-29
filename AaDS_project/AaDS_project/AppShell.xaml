@@ -4,6 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:AaDS_project"
+    xmlns:topic_one="clr-namespace:AaDS_project.Topic_1_task_3"
     xmlns:topic_three="clr-namespace:AaDS_project.Topic_3_task_4"
     xmlns:topic_two_one="clr-namespace:AaDS_project.Topic_2_task_1"
     xmlns:topic_two_nine="clr-namespace:AaDS_project.Topic_2_task_9"
@@ -16,7 +17,12 @@
         Route="MainPage" />
 
     <ShellContent
-        Title="Время выполнения 1-ой задачи (Тема 2)"
+        Title="Тема 1, задача 3"
+        ContentTemplate="{DataTemplate topic_one:Time}"
+        Route="Time" />
+
+    <ShellContent
+        Title="Тема 2, задача 1"
         ContentTemplate="{DataTemplate topic_two_one:LeadTimeSolution1}"
         Route="LeadTimeSolution1" />
 

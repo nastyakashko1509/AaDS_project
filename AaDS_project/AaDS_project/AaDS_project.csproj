@@ -78,6 +78,9 @@
 	  <MauiXaml Update="Topic_1_task_3\BinarySearchTreesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Topic_1_task_3\Time.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Topic_1_task_3\VisualizationSolution.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

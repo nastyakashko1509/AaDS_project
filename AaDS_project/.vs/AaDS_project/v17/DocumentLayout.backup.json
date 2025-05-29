@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|c:\\users\\zgdas\\2 course\\2 sem\\aads_project\\aads_project\\aads_project\\topic_1_task_3\\time.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_1_task_3\\time.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|c:\\users\\zgdas\\2 course\\2 sem\\aads_project\\aads_project\\aads_project\\topic_1_task_3\\time.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_1_task_3\\time.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|c:\\users\\zgdas\\2 course\\2 sem\\aads_project\\aads_project\\aads_project\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|c:\\users\\zgdas\\2 course\\2 sem\\aads_project\\aads_project\\aads_project\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|c:\\users\\zgdas\\2 course\\2 sem\\aads_project\\aads_project\\aads_project\\topic_2_task_9\\leadtimetask9.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CA39416-CDC3-4424-BEA7-E947A55088AB}|AaDS_project\\AaDS_project.csproj|solutionrelative:aads_project\\topic_2_task_9\\leadtimetask9.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +38,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Time.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\Topic_1_task_3\\Time.xaml.cs",
+              "RelativeDocumentMoniker": "AaDS_project\\Topic_1_task_3\\Time.xaml.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\Topic_1_task_3\\Time.xaml.cs",
+              "RelativeToolTip": "AaDS_project\\Topic_1_task_3\\Time.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:54:32.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Time.xaml",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\Topic_1_task_3\\Time.xaml",
+              "RelativeDocumentMoniker": "AaDS_project\\Topic_1_task_3\\Time.xaml",
+              "ToolTip": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\Topic_1_task_3\\Time.xaml",
+              "RelativeToolTip": "AaDS_project\\Topic_1_task_3\\Time.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T04:54:04.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AaDS_project\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\AppShell.xaml",
+              "RelativeToolTip": "AaDS_project\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T04:52:48.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AaDS_project\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\AppShell.xaml.cs",
+              "RelativeToolTip": "AaDS_project\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:52:35.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LeadTimeTask9.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\Topic_2_task_9\\LeadTimeTask9.xaml.cs",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_2_task_9\\LeadTimeTask9.xaml.cs",
@@ -39,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "LeadTimeSolutions.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\Topic_4_Task_9\\LeadTimeSolutions.xaml.cs",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_4_Task_9\\LeadTimeSolutions.xaml.cs",
@@ -47,12 +115,11 @@
               "RelativeToolTip": "AaDS_project\\Topic_4_Task_9\\LeadTimeSolutions.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA1wFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T17:58:56.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T17:58:56.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "LeadTimeSolutions.xaml",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 course\\2 sem\\AaDS_project\\AaDS_project\\AaDS_project\\Topic_4_Task_9\\LeadTimeSolutions.xaml",
               "RelativeDocumentMoniker": "AaDS_project\\Topic_4_Task_9\\LeadTimeSolutions.xaml",
@@ -60,8 +127,7 @@
               "RelativeToolTip": "AaDS_project\\Topic_4_Task_9\\LeadTimeSolutions.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-28T17:58:53.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T17:58:53.564Z"
             }
           ]
         }
